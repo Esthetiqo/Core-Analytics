@@ -341,5 +341,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
