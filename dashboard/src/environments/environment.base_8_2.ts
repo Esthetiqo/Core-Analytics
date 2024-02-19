@@ -3,7 +3,7 @@ import {Affiliate, EnvironmentInterface, Hedger} from "./environment-interface"
 
 export const based: Affiliate = {
     name: "Based",
-    mainColor: "#F5B3F7",
+    mainColor: "#D4E09B",
     accountSource: "0x1c03B6480a4efC2d4123ba90d7857f0e1878B780",
     fromTimestamp: "0",
 }
