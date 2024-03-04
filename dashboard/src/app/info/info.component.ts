@@ -18,6 +18,9 @@ export class InfoComponent {
   constructor(readonly loadingService: LoadingService) {}
 
   unDecimal(value: BigNumber): BigNumber {
+    if (this.title === "Deposits") {
+      return value.div(BigNumber(10).pow(30));
+    }
     return value.div(BigNumber(10).pow(this.decimals));
   }
 
@@ -26,4 +29,3 @@ export class InfoComponent {
     else return value.toFormat();
   }
 }
-
