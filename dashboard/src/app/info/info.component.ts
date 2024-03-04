@@ -26,3 +26,4 @@ export class InfoComponent {
     else return value.toFormat();
   }
 }
+
