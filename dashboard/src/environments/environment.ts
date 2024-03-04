@@ -1,9 +1,9 @@
 import { EnvironmentInterface } from "./environment-interface";
-import { environment as base82Env } from "./environment.base_8_2";
+import { environment as core82Env } from "./environment.core-8_2";
 
 export const environment: EnvironmentInterface = {
   name: "Core",
   assetsFolder: "core",
-  singleAffiliateAccountSource: "0x1c03B6480a4efC2d4123ba90d7857f0e1878B780",
-  environments: [base82Env],
+  singleAffiliateAccountSource: "0xd6ee1fd75d11989e57B57AA6Fd75f558fBf02a5e",
+  environments: [core82Env],
 };
